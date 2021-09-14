@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript quiz</title>
+
+    <!-- include style.css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- html files -->
+    <link rel="quizhtml" href="quiz.html">
+    <link rel="endhtml" href="end.html">
+
+</head>
+<body>
+   <div class="wrapper">
+       <div class="welcome_text">
+           <form class="welcome_form" name="welcome_form" onsubmit="submitform(event)">
+            <input type="text" name="name">
+            <button type="submit">Start Quiz</button>
+        </form>
+       </div>
+   </div> 
+
+   <!-- quiz.js-->
+   <script src="quiz.js"></script>
+</body>
+</html>
